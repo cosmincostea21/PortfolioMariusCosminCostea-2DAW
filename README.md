@@ -5,4 +5,4 @@ A continucación se presentan las diferentes unidades que hemos tratado en el cu
 ## Unidad 1 
 
 [Diario](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/diario_UD1.md)  
-[Enlaces](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/enlaces_UD1.md)
+[Ejercicios](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/enlaces_UD1.md)
