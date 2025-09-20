@@ -25,12 +25,45 @@ Para crear una cuenta de GitHub debemos seguir los siguientes pasos:
 > 3. Completamos con nuestros datos y accedemos a nuestra cuenta
 
 En mi caso ya presentaba una cuenta de GitHub donde he subuido proyectos de clase:
+
 ![img](https://raw.githubusercontent.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im1.png)
 
 
 ## 2. Mi repositorio.
 
 Para crear repositorio es muy sencillo, buscamos la pesataña de new en la pantalla principal:
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/newRepositorio.png)
+
+
+Posteriormente seguimos los pasos y los parámetros marcados en la siguiente captura:
+> 1. El nombre que le hemos puesto al repositorio es: repositorioPruebaGitHub
+
+![repositorio](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im2.png)
+
+
+
+
+## 3. Subir archivos.
+
+Una vez creado el repositorio al acceder a el deberíamos visualizar lo siguiente:
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/repositorioCreado.png)
+
+Pinchamos en AddFile y se nos abre la siguiente pestaña:
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im2.png).
+
+
+
+
+
+
+
+
+
+
+
 
 
 
