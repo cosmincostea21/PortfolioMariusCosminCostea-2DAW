@@ -128,7 +128,10 @@ establecer colaboradores.
 
 
 
-
+## 8. Conclusiones.
+Para finalizar podemos decir que GitHub es una **herramienta muy útil** para tener nuestros proyectos, para compartirlos con la comunidad e incluso tener un lugar donde poder guardar nuestros proyectos a lo largo del tiempo.
+Mediante el uso de repositorios somos capaces de tener un orden y un historial de los diferentes cambios realizados. Es importante conocer nuestras herramientas de trabajo y desde luego que este trabajo está enfocado para 
+familiarizarnos con ella.
 
 
 
