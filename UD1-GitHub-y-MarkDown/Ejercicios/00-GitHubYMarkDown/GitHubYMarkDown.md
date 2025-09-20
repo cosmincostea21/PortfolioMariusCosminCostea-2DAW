@@ -109,6 +109,25 @@ Una vez hemos accedido al pull-request debemos tener claro que los cambios van h
 
 ![](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im9.png)
 
+![](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im10.png)
+
+
+
+## 7. Ajustes y colaboraciones.
+
+Por otra parte también disponemos de un apartado de ajustes de nuestro repositorio, donde encontramos muchas opciones e incluso desde las cuales podriamos desplegar nuestra web , administrar ramas, marcar hitos o 
+establecer colaboradores.
+
+
+> ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im11.png)
+
+
+
+> ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im12.png)
+
+
+
+
 
 
 
