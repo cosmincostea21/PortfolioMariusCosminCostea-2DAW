@@ -19,4 +19,18 @@ A continuación vamos a ver los primeros pasos para utilizar GitHub, desde como 
 
 ## 1. Creación de la cuenta en GitHub
 
-![This is an alt text.](/image/sample.webp "This is a sample image.")
+Para crear una cuenta de GitHub debemos seguir los siguientes pasos:
+> 1. Nos dirigimos a https://github.com/
+> 2. Buscamos la opción de Sing in.
+> 3. Completamos con nuestros datos y accedemos a nuestra cuenta
+
+En mi caso ya presentaba una cuenta de GitHub donde he subuido proyectos de clase:
+![img](https://raw.githubusercontent.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im1.png)
+
+
+## 2. Mi repositorio.
+
+Para crear repositorio es muy sencillo, buscamos la pesataña de new en la pantalla principal:
+
+
+
