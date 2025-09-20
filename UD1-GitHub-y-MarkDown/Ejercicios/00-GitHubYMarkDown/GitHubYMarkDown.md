@@ -24,7 +24,7 @@ Para crear una cuenta de GitHub debemos seguir los siguientes pasos:
 > 2. Buscamos la opción de Sing in.
 > 3. Completamos con nuestros datos y accedemos a nuestra cuenta
 
-En mi caso ya presentaba una cuenta de GitHub donde he subuido proyectos de clase:
+En mi caso ya presentaba una cuenta de GitHub donde previamente habia subuido proyectos de clase:
 
 ![img](https://raw.githubusercontent.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im1.png)
 
@@ -57,7 +57,9 @@ Pinchamos en AddFile y se nos abre la siguiente pestaña:
 
 ## 4. Historial de commits.
 
-Una opción muy util es el historial de commits que nos ofrece GitHub, con ello podemos mantener un registro de las modificaciones, borrados o añadidos que hacemos dentro de nuestro repositorio:
+Una opción muy util es el historial de commits que nos ofrece GitHub, con ello podemos mantener un registro de las modificaciones, borrados o añadidos que hacemos dentro de nuestro repositorio.
+Hemos subido un documento llamado DocumentoCosmin1 - A pesar de que los mensajes de commit son un poco ambiguos es algo que debemos de tener en cuenta, tener claridad en nuestos commits.
+ >> ACLARACIÓN: El ultimo mensaje de subiendo archivo de prueba se refiere al documento llamado -> DocumentoCosmin1
 
 ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im5.png)
 
@@ -65,7 +67,7 @@ Una opción muy util es el historial de commits que nos ofrece GitHub, con ello 
 ## 5. Creación de ramas.
 
 Las **ramas** permiten trabajar en líneas de desarrollo independientes.
-#### ¿Para qué sirven?
+#### 5.1 ¿Para qué sirven?
 - Separar trabajo sin afectar a `main`.
 - Colaborar en equipo en paralelo.
 - Mantener el historial organizado.
@@ -79,6 +81,33 @@ Pasos para crear en GitHub las ramas:
 > 4. Creamos la rama (En mi caso la rama nueva es Cosmin).
 
 ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im6.png)
+
+
+### 5.2 Moficamos un archivo desde la rama nueva
+> Previamente hemos subido un archivo y vamos a modificarlo desde la **rama Cosmin**  
+> Accedemos al apartado de editar el archivo
+> Realizamos el commit como se muestra en la imagen
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im7.png)
+
+
+## 6. Merge.
+El comando **`git merge`** se usa para **unir los cambios de una rama a otra**.
+
+### 6.1 ¿Cómo funciona?
+- Combina el historial de dos ramas.
+- Mantiene los commits originales.
+- Puede generar **conflictos** si el mismo archivo fue editado en ambas ramas.
+
+Dentro de las opciones de pull-request, que se encuentra barra horizontal de navegación de GitHub, podemos observar tanto la notificacion de que tenemos incongruencia en las ramas como la 
+opción new Pull-Request.
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im8.png)
+
+
+Una vez hemos accedido al pull-request debemos tener claro que los cambios van hacia la rama main desde la rama Cosmin para que se produzcan los cambios correctamente:
+
+![](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im9.png)
 
 
 
