@@ -24,7 +24,7 @@ Para crear una cuenta de GitHub debemos seguir los siguientes pasos:
 > 2. Buscamos la opción de Sing in.
 > 3. Completamos con nuestros datos y accedemos a nuestra cuenta
 
-En mi caso ya presentaba una cuenta de GitHub donde previamente habia subuido proyectos de clase:
+En mi caso ya presentaba una cuenta de GitHub donde previamente habia subido proyectos de clase:
 
 ![img](https://raw.githubusercontent.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im1.png)
 
@@ -46,7 +46,7 @@ Posteriormente seguimos los pasos y los parámetros marcados en la siguiente cap
 
 ## 3. Subir archivos.
 
-Una vez creado el repositorio al acceder a el deberíamos visualizar lo siguiente:
+Una vez creado el repositorio, al acceder a el, deberíamos visualizar lo siguiente:
 
 ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im3.png)
 
@@ -99,13 +99,13 @@ El comando **`git merge`** se usa para **unir los cambios de una rama a otra**.
 - Mantiene los commits originales.
 - Puede generar **conflictos** si el mismo archivo fue editado en ambas ramas.
 
-Dentro de las opciones de pull-request, que se encuentra barra horizontal de navegación de GitHub, podemos observar tanto la notificacion de que tenemos incongruencia en las ramas como la 
+Dentro de las opciones de pull-request, que se encuentra en la barra horizontal de navegación de GitHub, podemos observar tanto la notificacion de que tenemos incongruencia en las ramas como la 
 opción new Pull-Request.
 
 ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im8.png)
 
 
-Una vez hemos accedido al pull-request debemos tener claro que los cambios van hacia la rama main desde la rama Cosmin para que se produzcan los cambios correctamente:
+Una vez hemos accedido al pull-request debemos tener claro que los cambios van desde la rama Cosmin hacia la rama main para que se produzcan los cambios correctamente:
 
 ![](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/Ejercicios/00-GitHubYMarkDown/imagenes/im9.png)
 
