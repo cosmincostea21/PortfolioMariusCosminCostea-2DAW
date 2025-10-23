@@ -1,4 +1,4 @@
-# 🧠 Informe de Virtualización — Marius Cosmin Costea
+# 🧠 Informe de Virtualización 
 
 ## 1 Instalación de Ubuntu
 
