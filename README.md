@@ -6,3 +6,8 @@ A continucación se presentan las diferentes unidades que hemos tratado en el cu
 
 [Diario](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/diario_UD1.md)  
 [Ejercicios](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/enlaces_UD1.md)
+
+## Unidad 2
+
+[Diario](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/diario_UD1.md)  
+[Ejercicios](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD1-GitHub-y-MarkDown/enlaces_UD1.md)
