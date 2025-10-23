@@ -2,7 +2,9 @@
 # 1. 📘 ¿Qué he aprendido?
 
 He aprendido a instalar y configurar **Docker en Ubuntu** dentro de una máquina virtual en **VirtualBox**.  
-He comprendido la importancia de mantener el sistema actualizado con `update` y `upgrade`, así como la necesidad de añadir repositorios oficiales para instalar software de forma segura.  
+He comprendido la importancia de mantener el sistema actualizado con `update` y `upgrade`, así como la necesidad de añadir repositorios oficiales para instalar software de forma segura. 
+
+Por otro lado también hemos realizado una práctica sobre servidores, alojamiento web y como podemos instalar Apache en windows 11.
 
 También he aprendido a:  
 - Instalar Docker y resolver problemas de permisos añadiendo el usuario al grupo `docker`.  
