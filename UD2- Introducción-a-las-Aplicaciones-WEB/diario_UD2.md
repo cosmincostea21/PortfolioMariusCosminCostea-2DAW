@@ -1,7 +1,7 @@
 
 # 1. 📘 ¿Qué he aprendido?
 
-En esta práctica he aprendido a instalar y configurar **Docker en Ubuntu** dentro de una máquina virtual en **VirtualBox**.  
+He aprendido a instalar y configurar **Docker en Ubuntu** dentro de una máquina virtual en **VirtualBox**.  
 He comprendido la importancia de mantener el sistema actualizado con `update` y `upgrade`, así como la necesidad de añadir repositorios oficiales para instalar software de forma segura.  
 
 También he aprendido a:  
