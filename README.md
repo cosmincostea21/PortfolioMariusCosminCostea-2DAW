@@ -16,4 +16,4 @@ A continucación se presentan las diferentes unidades que hemos tratado en el cu
 ## Unidad 3
 
 [Diario](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/diario_UD3.md)  
-[Ejercicios]()
+[Ejercicios](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/Pr%C3%A1ctica-InstalacionConfiguracion.md)
