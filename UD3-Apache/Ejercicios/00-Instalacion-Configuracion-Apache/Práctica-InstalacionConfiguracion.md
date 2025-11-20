@@ -15,7 +15,7 @@ Se instala Apache con el siguiente comando:
 sudo apt install apache2
 ```
 
-![Instalación de Apache](ruta-de-la-imagen)
+![Instalación de Apache](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/00-img.png)
 
 Una vez instalado, se configuran los perfiles de aplicación en **UFW** para permitir el tráfico web:
 
@@ -24,7 +24,9 @@ sudo ufw app list
 sudo ufw allow 'Apache'
 ```
 
-![Configuración UFW](ruta-de-la-imagen)
+![Configuración UFW](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/01-img.png)
+
+![Configuración UFW](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/02-img.png)  
 
 Se comprueba el estado del servicio:
 
@@ -32,11 +34,11 @@ Se comprueba el estado del servicio:
 sudo systemctl status apache2
 ```
 
-![Estado del servicio Apache](ruta-de-la-imagen)
+![Estado del servicio Apache](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/03-img.png)
 
 Finalmente, accedemos a la IP del servidor para verificar la página por defecto de Apache.  
 
-![Página por defecto Apache](ruta-de-la-imagen)
+![Página por defecto Apache](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/04-img.png)
 
 ---
 
@@ -47,7 +49,7 @@ El archivo principal de configuración es:
 /etc/apache2/apache2.conf
 ```
 
-![Archivo apache2.conf](ruta-de-la-imagen)
+![Archivo apache2.conf](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/05-img.png)
 
 Los puertos se definen en:
 
@@ -55,7 +57,9 @@ Los puertos se definen en:
 /etc/apache2/ports.conf
 ```
 
-![Archivo ports.conf](ruta-de-la-imagen)
+![Archivo ports.conf](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/06-img.png)
+
+
 
 ---
 
@@ -77,7 +81,11 @@ sudo chmod -R 775 /var/www/gci
 sudo chmod g+s /var/www/gci
 ```
 
-![Permisos en directorio web](ruta-de-la-imagen)
+![Permisos en directorio web](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/07-img.png)
+
+Apache presenta por defecto un host virtual llamado gci desde ahí creamos nuestro index.html
+
+![Directorios gci](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/08-img.png)
 
 Se crea el archivo `index.html`:
 
@@ -92,7 +100,10 @@ Se crea el archivo `index.html`:
 </html>
 ```
 
-![Archivo index.html](ruta-de-la-imagen)
+![Archivo index.html](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/09-img.png)
+
+
+![Archivo index.html](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/10-img.png)
 
 ---
 
@@ -115,7 +126,7 @@ En `gci.conf` se define:
 </VirtualHost>
 ```
 
-![Archivo gci.conf](ruta-de-la-imagen)
+![Archivo gci.conf](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/12-img.png)
 
 Se activa el sitio y se recarga Apache:
 
@@ -124,7 +135,7 @@ sudo a2ensite gci.conf
 sudo systemctl reload apache2
 ```
 
-![Activación VirtualHost](ruta-de-la-imagen)
+![Activación VirtualHost](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/13-img.png)
 
 Se añade el dominio al archivo `/etc/hosts`:
 
@@ -132,11 +143,11 @@ Se añade el dominio al archivo `/etc/hosts`:
 127.0.0.1 gci.ejemploCosmin.com
 ```
 
-![Archivo hosts](ruta-de-la-imagen)
+![Archivo hosts](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/14-img.png)
 
 Al acceder al dominio configurado, se muestra la página personalizada:  
 
-![Página personalizada](ruta-de-la-imagen)
+![Página personalizada](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/00-Instalacion-Configuracion-Apache/images/15-img.png)
 
 ---
 
@@ -149,8 +160,13 @@ Al acceder al dominio configurado, se muestra la página personalizada:
 ---
 
 ## 6. Conclusión
-La instalación y configuración de Apache en Ubuntu permite comprender de manera práctica el funcionamiento de un servidor web.  
-Crear un **VirtualHost** y alojar una página propia en un entorno controlado es un paso fundamental para el desarrollo web profesional.
+La instalación de Apache y la configuración de un host virtual local nos permiten comprender cómo
+funciona un servidor web de manera práctica. Al crear nuestro primer host virtual, hemos podido
+alojar una página web en nuestro propio equipo, lo que nos brinda un entorno seguro y controlado
+para probar y desarrollar proyectos web antes de publicarlos en un servidor real. Este proceso no
+solo refuerza conceptos fundamentales de servidores y rutas de archivos, sino que también sentamos
+las bases para la gestión de múltiples sitios web en un mismo servidor, una habilidad clave en el
+desarrollo web profesional.
 
 ---
 
@@ -158,7 +174,3 @@ Crear un **VirtualHost** y alojar una página propia en un entorno controlado es
 - [IONOS: Instalar Apache en Ubuntu](https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/)  
 - Install and Configure Apache | Ubuntu  
 - Recomendaciones de ChatGPT  
-
----
-
-¿Quieres que además te prepare una **versión con índice automático (Table of Contents)** para que sea aún más navegable?
