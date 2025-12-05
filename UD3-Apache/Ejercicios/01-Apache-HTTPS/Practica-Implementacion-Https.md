@@ -27,8 +27,6 @@ Un certificado SSL/TLS incluye la clave pública del servidor, el dominio y la f
 | **Comodín (Wildcard)** | Un dominio y todos sus subdominios (ejemplo: `*.ejemplo.com`). |
 | **Multidominio (MDC)** | Varios dominios distintos en un único certificado. |
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede añadir una tabla gráfica o diagrama que muestre ejemplos de cada tipo: dominio único, wildcard y multidominio.)*
 
 #### Niveles de validación
 - **DV (Validación de dominio)**: verificación básica, rápida y barata.  
