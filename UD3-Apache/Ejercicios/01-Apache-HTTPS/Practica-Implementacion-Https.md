@@ -9,8 +9,7 @@ HTTPS cifra las comunicaciones mediante **TLS (Transport Layer Security)**, ante
 - **Clave privada**: controlada por el propietario del sitio web, ubicada en el servidor y utilizada para desencriptar la información.  
 - **Clave pública**: disponible para todos los usuarios, permite cifrar la información que solo puede ser desencriptada por la clave privada.
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede incluir un esquema visual de cómo funciona la comunicación HTTPS con clave pública y privada, mostrando navegador ↔ servidor.)*
+![img0](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/00-img.png)
 
 ---
 
@@ -33,8 +32,7 @@ Un certificado SSL/TLS incluye la clave pública del servidor, el dominio y la f
 - **OV (Validación de organización)**: la CA comprueba datos legales de la organización.  
 - **EV (Validación extendida)**: máxima confianza, con verificación exhaustiva de la entidad.
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede mostrar cómo se ve un certificado EV en un navegador, con la barra verde o indicadores de confianza.)*
+![img1](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/01-img.jpg)
 
 ---
 
@@ -46,8 +44,7 @@ Para habilitar HTTPS en Apache sobre Ubuntu se necesitan principalmente:
 - **mod_socache_shmcb**: gestiona caché de sesiones SSL/TLS para mejorar rendimiento.  
 - **mod_md**: automatiza obtención y renovación de certificados (útil con Let's Encrypt).
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede incluir una captura de la terminal mostrando la activación de módulos con `a2enmod ssl headers`.)*
+![img3](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/03-img.png)
 
 ---
 
@@ -60,8 +57,7 @@ Se verifica que Apache está activo con:
 sudo systemctl status apache2
 ```
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede añadir la captura del estado activo del servicio Apache.)*
+![img4](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/04-img.png)
 
 ---
 
@@ -72,12 +68,20 @@ sudo a2enmod headers
 systemctl restart apache2
 ```
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede mostrar la salida de la terminal confirmando que los módulos se han habilitado correctamente.)*
+![img5](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/05-img.png)
+
+![img6](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/06-img.png)
+
+![img7](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/07-img.png)
 
 ---
 
 ### 2.3 Generación de certificado autofirmado
+Nos aseguramos que tenemos dentro de nuestra carpeta ssl los directorios que hacen referencia a los certificados de seguridad.
+
+![img8](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/08-img.png)
+
+
 Se crea un certificado autofirmado con OpenSSL:
 
 ```bash
@@ -94,8 +98,10 @@ Parámetros principales:
 - `-keyout`: ruta de la clave privada.  
 - `-out`: ruta del certificado público.
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede incluir la captura del proceso de generación del certificado y los datos introducidos en el CN.)*
+![img9](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/09-img.png)
+
+![img10](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/10-img.png)
+
 
 ---
 
@@ -114,8 +120,7 @@ Se añade el bloque de configuración en el puerto 443:
 </VirtualHost>
 ```
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede mostrar la captura del archivo de configuración editado con el bloque SSL.)*
+![img11](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/11-img.png)
 
 ---
 
@@ -129,8 +134,9 @@ curl -k -I https://gci.ejemplocosmin.com
 Resultado: **200 OK**.  
 Sin embargo, los navegadores muestran advertencia porque el certificado es **autofirmado** y no emitido por una CA reconocida.
 
-👉 **Espacio para imagen**:  
-*(Aquí se puede incluir la captura del navegador mostrando la advertencia de certificado no válido.)*
+![img12](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/12-img.png)
+
+![img13](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/13-img.png)
 
 ---
 
@@ -140,9 +146,7 @@ Los registros muestran que el acceso se realiza correctamente:
 ```bash
 sudo tail -f /var/log/apache2/access.log
 ```
-
-👉 **Espacio para imagen**:  
-*(Aquí se puede añadir la captura de los logs confirmando las peticiones al servidor.)*
+![img14](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD3-Apache/Ejercicios/01-Apache-HTTPS/images/14-img.png)
 
 ---
 
