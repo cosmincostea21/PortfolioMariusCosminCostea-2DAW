@@ -75,20 +75,39 @@ Aplicaciones web incluidas en `webapps/`.
 # 2. Instalación de Tomcat
 
 Para instalar Tomcat debemos tener **Java** previamente instalado en el equipo.  
-La instalación realizada aquí es **manual** y no mediante paquetes de Ubuntu.
+La instalación de Tomcat realizada en este proyecto es **manual** y no mediante paquetes de Ubuntu.
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/01-img.png)
+
 
 ### Instalación manual
 1. Descargar Tomcat desde la página oficial:  
-   👉 [Descargar Tomcat 10](https://tomcat.apache.org/download-10.cgi)  
-2. Mover el contenido de la carpeta descomprimida (`apache-tomcat-10.1.50`) a:  
+   👉 [Descargar Tomcat 10](https://tomcat.apache.org/download-10.cgi)
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/02-img.png)
+
+3. Mover el contenido de la carpeta descomprimida (`apache-tomcat-10.1.50`) a:  
    ```
    /usr/local/tomcat/
    ```
-3. Configurar variables de entorno.  
-4. Aplicar los cambios:  
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/03-img.png)
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/04-img.png)
+
+4. Configurar variables de entorno.
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/05-img.png)
+
+5. Aplicar los cambios:  
    ```
    source ~/.bashrc
    ```
+6. Inicializamos nuestro servidor:
+  ```
+   $CATALINA_HOME/bin/startup.sh
+   ```
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/06-img.png)
+   
 
 ### Instalación mediante paquetes (Ubuntu/Debian)
 Lo más común y cómodo es instalar **Tomcat 9**, que usa `javax.servlet.*` y es compatible con la mayoría de tutoriales:
@@ -100,12 +119,18 @@ sudo apt install tomcat9
 
 ✅ Instalación completa: nuestro servidor Tomcat estará corriendo en el puerto **8080**.
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/07-img.png)
+
 ---
 
 # 3. Archivos clave de configuración
 
 Tomcat se ha instalado en `/usr/local/tomcat/`.  
 Para acceder a los archivos de configuración debemos entrar al directorio `conf/`.
+
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/08-img.png)
+
 
 ### 1. server.xml
 - **Función**: Archivo principal de configuración del servidor Tomcat.  
@@ -119,6 +144,8 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
   <Connector port="8080" ... />
   ```
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/09-img.png)
+
 ---
 
 ### 2. web.xml
@@ -128,7 +155,10 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
   - Filtros: lógica que intercepta peticiones/respuestas (ej. seguridad, logging).  
   - Listeners: inicialización de recursos al arrancar la aplicación.  
   - Error pages: páginas personalizadas para errores HTTP.  
-  - MIME types: asociaciones de extensiones con tipos de contenido.  
+  - MIME types: asociaciones de extensiones con tipos de contenido.
+ 
+  
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/10-img.png)
 
 ---
 
@@ -140,6 +170,9 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
     <user username="admin" password="secret" roles="manager-gui"/>
     ```
   - Roles: permisos como `manager-gui`, `admin-gui`, `manager-script`.
+ 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/11-img.png)
+
 
 ---
 
@@ -149,9 +182,16 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
   - DataSources (JNDI): conexiones a bases de datos.  
   - Session management: persistencia y configuración de sesiones.  
   - Environment entries: variables accesibles desde la aplicación.  
-  - Reloading: control de recarga automática de aplicaciones.  
+  - Reloading: control de recarga automática de aplicaciones.
+ 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/12-img.png)
 
 ---
+
+### Dependencias esquema:
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/13-img.png)
+
 
 # 4. Despliegue de aplicación
 
@@ -162,4 +202,23 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
    ```
    http://localhost:8080/sample
    ```
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/14-img.png)
+
+## ¿Cómo funciona Tomcat?
+
+| **Etapa**           | **Acción interna**                          | **Resultado**                                 |
+|---------------------|---------------------------------------------|-----------------------------------------------|
+| Detección           | Escaneo de `webapps`                        | Identificación de nuevo `.war`                |
+| Expansión           | Descompresión del `.war`                    | Creación de carpeta con recursos              |
+| Contexto            | Definición de `path` y recursos             | Contexto `/hello` disponible                  |
+| Configuración       | Lectura de `web.xml` y anotaciones          | Registro de servlets y filtros                |
+| Inicialización      | Instanciación de componentes                | Listeners y servlets activos                  |
+| Compilación JSP     | Traducción JSP a Servlet                    | Clases generadas en `work/`                   |
+| Disponibilidad      | Contexto listo                              | Aplicación accesible vía navegador            |
+
+
+
+
+
+
 
