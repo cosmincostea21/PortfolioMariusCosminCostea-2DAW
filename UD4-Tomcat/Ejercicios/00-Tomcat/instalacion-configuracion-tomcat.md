@@ -162,11 +162,4 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
    ```
    http://localhost:8080/sample
    ```
-```
-
----
-
-Esto ya tiene un aspecto mucho más profesional y organizado.  
-¿Quieres que te prepare también un **diagrama visual en Markdown/ASCII** del flujo interno (Coyote → Catalina → Servlets/JSP → Respuesta → Cliente) para complementar la explicación?
-
 
