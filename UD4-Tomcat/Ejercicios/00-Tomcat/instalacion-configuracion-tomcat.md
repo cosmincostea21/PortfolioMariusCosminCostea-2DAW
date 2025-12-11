@@ -190,7 +190,15 @@ Para acceder a los archivos de configuración debemos entrar al directorio `conf
 
 ### Dependencias esquema:
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/00-Tomcat/images/13-img.png)
+conf/  
+├── server.xml           ← Configuración global del servidor Tomcat  
+│
+├── web.xml              ← Configuración de despliegue: servlets, filtros, seguridad  
+│
+├── tomcat-users.xml     ← Autenticación de usuarios y definición de roles  
+│
+└── context.xml          ← Configuración de contexto: recursos, datasources, parámetros  
+
 
 
 # 4. Despliegue de aplicación
