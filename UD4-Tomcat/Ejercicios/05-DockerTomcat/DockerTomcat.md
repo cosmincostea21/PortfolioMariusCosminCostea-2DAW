@@ -15,57 +15,24 @@ docker --version
 
 ---
 
+Aquí tienes **todo el repaso de comandos básicos de Docker en una tabla Markdown**, limpia y lista para integrar en tu documentación:
+
+---
+
 # 🧭 Repaso de comandos básicos para navegar en Docker
 
-Ver contenedores en ejecución:
-```
-docker ps
-```
-
-Ver todos los contenedores:
-```
-docker ps -a
-```
-
-Ver imágenes descargadas:
-```
-docker images
-```
-
-Iniciar un contenedor detenido:
-```
-docker start nombre_contenedor
-```
-
-Detener un contenedor:
-```
-docker stop nombre_contenedor
-```
-
-Eliminar contenedor:
-```
-docker rm nombre_contenedor
-```
-
-Eliminar imagen:
-```
-docker rmi nombre_imagen
-```
-
-Descargar una imagen:
-```
-docker pull nombre_imagen
-```
-
-Entrar dentro de un contenedor:
-```
-docker exec -it nombre_contenedor bash
-```
-
-Copiar archivos al contenedor:
-```
-docker cp archivo nombre_contenedor:/ruta/
-```
+| Acción | Comando |
+|--------|----------|
+| Ver contenedores en ejecución | `docker ps` |
+| Ver todos los contenedores | `docker ps -a` |
+| Ver imágenes descargadas | `docker images` |
+| Iniciar un contenedor detenido | `docker start nombre_contenedor` |
+| Detener un contenedor | `docker stop nombre_contenedor` |
+| Eliminar contenedor | `docker rm nombre_contenedor` |
+| Eliminar imagen | `docker rmi nombre_imagen` |
+| Descargar una imagen | `docker pull nombre_imagen` |
+| Entrar dentro de un contenedor | `docker exec -it nombre_contenedor bash` |
+| Copiar archivos al contenedor | `docker cp archivo nombre_contenedor:/ruta/` |
 
 ---
 
