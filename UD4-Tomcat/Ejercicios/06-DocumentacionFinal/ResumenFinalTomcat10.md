@@ -27,9 +27,6 @@ El flujo interno es:
 4. Se genera la respuesta.  
 5. La respuesta vuelve al cliente.
 
-> **[Espacio para captura: diagrama de flujo interno de Tomcat]**
-
-
 ## **3. Instalación de Tomcat10 mediante paquetes APT**
 
 A diferencia de una instalación manual descargando Tomcat desde la web oficial, en este caso se optó por una instalación **mediante los paquetes oficiales de Ubuntu**, lo que garantiza:
@@ -52,8 +49,6 @@ sudo apt install tomcat10
 sudo systemctl status tomcat10
 ```
 
-> **[Espacio para captura: salida del estado del servicio tomcat10]**
-
 ### **3.3 Estructura de directorios de Tomcat10 instalado vía APT**
 
 ```
@@ -63,8 +58,6 @@ sudo systemctl status tomcat10
 /var/log/tomcat10/      → Logs
 /var/cache/tomcat10/    → Clases compiladas (work)
 ```
-
-> **[Espacio para captura: estructura de /var/lib/tomcat10]**
 
 ---
 
@@ -98,8 +91,6 @@ Define usuarios y roles para acceder a Manager y Host Manager.
 ### **4.3 context.xml**
 
 Controla recursos por aplicación, recarga automática y parámetros de entorno.
-
-> **[Espacio para captura: edición de server.xml en nano]**
 
 ---
 
@@ -156,8 +147,6 @@ sudo a2ensite tomcat10-proxy
 sudo systemctl reload apache2
 ```
 
-> **[Espacio para captura: acceso a Tomcat a través de http://localhost]**
-
 ---
 
 ## **7. Seguridad aplicada en Tomcat y SSL**
@@ -186,8 +175,6 @@ En el entorno configurado también se ha tenido en cuenta el uso de **certificad
 Estos certificados suelen almacenarse en un **keystore**, que es simplemente un archivo protegido donde se guardan claves y certificados.  
 En este caso, la gestión del certificado se realiza desde **Apache2**, que actúa como frontal HTTPS, mientras que Tomcat recibe el tráfico ya descifrado a través del proxy.  
 Este enfoque es habitual en producción, ya que Apache se encarga de la parte criptográfica y Tomcat queda protegido detrás de él.
-
-> **[Espacio para captura: esquema HTTPS → Apache2 → Tomcat]**
 
 ### **7.3 Persistencia de configuración**
 
@@ -251,8 +238,6 @@ sudo docker run -d --name tomcat-demo -p 8080:8080 tomcat:latest
 ```bash
 sudo docker cp sample.war tomcat-demo:/usr/local/tomcat/webapps/
 ```
-
-> **[Espacio para captura: docker ps mostrando el contenedor]**
 
 ---
 
