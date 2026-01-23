@@ -6,6 +6,9 @@ Accedemos al directorio `/etc/tomcat10` y abrimos el XML `tomcat-users.xml`.
 
 Vamos a definir dos roles **manager** y **admin** de la siguiente manera:
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/01-img.png)
+
+
 ```
 <!-- Ejemplo típico, tú añadirías tu propio contenido -->
 <role rolename="manager-gui"/>
@@ -23,11 +26,17 @@ Debemos instalar el paquete **tomcat10-admin**:
 - **tomcat10-admin** → Añade Manager y Host Manager + archivos de contexto (`manager.xml`, `host-manager.xml`) que permiten la autenticación por roles.  
 - **Sin tomcat10-admin**, aunque tengas usuarios en `tomcat-users.xml`, **no hay Manager** para probar acceso autenticado.
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/02-img.png)
+
+
 ---
 
 ### 🌐 Acceso al Manager
 
 Vamos a la página del Manager.
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/03-img.png)
+
 
 Las credenciales son las establecidas anteriormente:
 
@@ -36,6 +45,9 @@ admin / admin123
 ```
 
 ---
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/04-img.png)
+
 
 # 🔒 3. Configuramos HTTPS
 
@@ -68,13 +80,21 @@ sudo keytool -genkeypair -alias tomcat \
 
 **Contraseña utilizada para el KeyStore:** `tomcat1234`
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/05-img.png)
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/06-img.png)
+
 ---
 
 ### 📁 Verificación de la keystore
 
 Vemos que se ha creado la keystore correctamente.
 
-Es muy importante que Tomcat tenga acceso a nuestra keystore; si no, **no va a funcionar**.
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/07-img.png)
+
+Es muy importante que Tomcat tenga acceso a nuestra keystore; si no, **no va a funcionar**.  
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/08-img.png)
 
 ---
 
@@ -82,6 +102,14 @@ Es muy importante que Tomcat tenga acceso a nuestra keystore; si no, **no va a f
 
 Seguidamente vamos a editar `server.xml` para habilitar HTTPS.
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/09-img.png)
+
 El aviso que sale a continuación es normal porque nuestro certificado es **autofirmado**.
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/10-img.png)
+
+
 Como vemos en la dirección de nuestro gestor de aplicaciones web, tenemos **HTTPS** con la advertencia del navegador en el candado de seguridad.
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/images/11-img.png)
+
