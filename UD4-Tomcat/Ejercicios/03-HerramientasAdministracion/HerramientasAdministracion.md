@@ -25,6 +25,9 @@ El Manager App de Tomcat es una aplicación web incluida en Tomcat que permite a
 
 Accedemos a través de la siguiente dirección URL:
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/01-img.png)
+
+
 ```
 http://localhost:8080/manager/html
 ```
@@ -41,6 +44,9 @@ Permite subir y desplegar aplicaciones web en formato `.war` o desde un director
 - **[una URL](guide://action?prefill=Tell%20me%20more%20about%3A%20una%20URL)**
 - **[un directorio ya existente](guide://action?prefill=Tell%20me%20more%20about%3A%20un%20directorio%20ya%20existente)**
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/02-img.png)
+
+
 ### 🔄 Recarga de aplicaciones (Reload)
 
 Recarga una aplicación sin necesidad de reiniciar todo el servidor. Se usa cuando se han modificado clases o archivos de configuración.
@@ -48,6 +54,8 @@ Recarga una aplicación sin necesidad de reiniciar todo el servidor. Se usa cuan
 ### ▶️⏹️ Parada y arranque de aplicaciones (Stop / Start)
 
 Permite detener una aplicación temporalmente o volver a iniciarla. Muy útil para mantenimiento o pruebas.
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/03-img.png)
 
 ### 🗑️ Eliminación de aplicaciones (Undeploy)
 
@@ -62,6 +70,9 @@ Apartados donde podemos ver posibles fallas, certificados de seguridad e informa
 - **[versión del sistema operativo](guide://action?prefill=Tell%20me%20more%20about%3A%20versi%C3%B3n%20del%20sistema%20operativo)**
 - **[arquitectura del sistema](guide://action?prefill=Tell%20me%20more%20about%3A%20arquitectura%20del%20sistema)**
 - **[dirección IP](guide://action?prefill=Tell%20me%20more%20about%3A%20direcci%C3%B3n%20IP)**
+  
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/04-img.png)
+
 
 ---
 
@@ -82,7 +93,9 @@ Accedemos a través de:
 https://localhost:8443/host-manager/html
 ```
 
-*(Estás utilizando otro puerto porque ahí tienes el certificado SSL.)*
+*(Estoy utilizando otro puerto porque ahí tienes el certificado SSL.)*
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/05-img.png)
 
 ---
 
@@ -101,11 +114,13 @@ El Host Manager genera automáticamente la estructura de directorios necesaria y
 
 **Uso típico:** alojar varios proyectos o sitios web en una misma instancia de Tomcat.
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/06-img.png)
+
 ---
 
 ## 🖥️ 1.2.2 Nombre de las máquinas virtuales
 
-*(Sección mencionada en tu texto, la mantengo tal cual para que puedas completarla si lo deseas.)*
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/07-img.png)
 
 ---
 
@@ -115,6 +130,8 @@ Permite ejecutar comandos mediante peticiones HTTP.
 Para que estos comandos sean posibles debemos añadir un rol a nuestro usuario admin: **admin-script**.
 
 Creamos el rol y se lo añadimos de la siguiente manera:
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/08-img.png)
 
 ```
 <role rolename="admin-script"/>
@@ -132,6 +149,9 @@ Creamos el rol y se lo añadimos de la siguiente manera:
 
 ### Ejemplo para añadir un host
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/09-img.png)
+
+
 ```
 https://localhost:8443/host-manager/text/add?name=midominio.com&appBase=webapps_midominio
 ```
@@ -140,7 +160,7 @@ Esta interfaz es útil para automatización, scripts o integración con herramie
 
 ---
 
-## 💾 1.2.4 Persistencia de la configuración (Persist)
+## 💾 1.2.4 Persistencia de la configuración.
 
 Los cambios realizados desde la interfaz web **no se guardan automáticamente** en `server.xml`.
 
@@ -151,8 +171,10 @@ La función Persist permite:
 
 Sin persistencia, los cambios se perderían al reiniciar el servidor.
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/10-img.png)
+
 ---
 
 ## 🧭 1.2.5 Información del servidor
 
-*(Sección abierta para que añadas capturas o detalles si lo deseas.)*
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/images/11-img.png)
