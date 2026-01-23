@@ -5,5 +5,11 @@
 
 [02-Seguridad-Tomcat](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/02-SeguridadTomcat/SeguridadTomcat.md)
 
+[03-HerramientasAdministracion](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/03-HerramientasAdministracion/HerramientasAdministracion.md)
+
+[04-HerramientasRendimiento](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/04-HerramientasRendimientos/HR-ApacheBench.md)
+
+[05-DockerTomcat](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/DockerTomcat.md)
+
 [06-Documentación-Final](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/06-DocumentacionFinal/ResumenFinalTomcat10.md)
 
