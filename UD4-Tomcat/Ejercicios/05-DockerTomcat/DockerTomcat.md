@@ -75,15 +75,15 @@ docker cp archivo nombre_contenedor:/ruta/
 
 Descargamos la imagen de Tomcat y lanzamos un contenedor en el puerto 8080 con el nombre `tomcat-demo`:
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05DockerTomcat/images/01-img.png)
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/images/01-img.png)
 
 ```
 docker run -d -p 8080:8080 --name tomcat-demo tomcat
 ```
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05DockerTomcat/images/02-img.png)
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/images/02-img.png)
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05DockerTomcat/images/03-img.png)
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/images/03-img.png)
 
 El contenedor queda en ejecución y Tomcat disponible en el puerto 8080.
 
@@ -93,15 +93,15 @@ El contenedor queda en ejecución y Tomcat disponible en el puerto 8080.
 docker cp sample.war tomcat-demo:/usr/local/tomcat/webapps/
 ```
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05DockerTomcat/images/04-img.png)
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/images/04-img.png)
 
 
 Con Apache detenido y Tomcat nativo inactivo, accedemos al puerto 8080 y comprobamos que la aplicación funciona correctamente.
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05DockerTomcat/images/05-img.png)
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/images/05-img.png)
 
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05DockerTomcat/images/06-img.png)
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD4-Tomcat/Ejercicios/05-DockerTomcat/images/06-img.png)
 
 
 ---
