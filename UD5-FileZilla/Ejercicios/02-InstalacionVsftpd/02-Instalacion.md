@@ -17,7 +17,7 @@ vsftpd no tiene interfaz gráfica, por lo que toda la configuración se realiza 
 
 **Salida de instalación (resumen):**
 
-![img]()
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/01-img.png)
 
 ---
 
@@ -35,6 +35,9 @@ Puedes editarlo con:
 sudo nano /etc/vsftpd.conf
 ```
 
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/02-img.png)  
+
+
 En este archivo añadimos o modificamos:
 
 ```
@@ -44,7 +47,9 @@ listen_ipv6=NO
 anonymous_enable=NO
 ```
 
-*(Aquí iría la imagen del archivo vsftpd.conf abierto en nano)*
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/03-img.png)  
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/04-img.png)  
 
 ### ¿Por qué usamos IPv4?
 
@@ -66,9 +71,7 @@ listen_address=10.0.2.15
 sudo systemctl restart vsftpd
 ```
 
-*(Aquí iría la imagen del reinicio del servicio)*
-
----
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/05-img.png)  
 
 ## 3. Habilitar el inicio automático
 
@@ -84,7 +87,7 @@ Para activarlo manualmente:
 sudo systemctl enable vsftpd
 ```
 
-*(Aquí iría la imagen mostrando “enabled”)*
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/06-img.png)  
 
 ### Comprobar el estado del servicio
 
@@ -94,7 +97,8 @@ sudo systemctl status vsftpd
 
 Si todo está correcto, debe aparecer como **active (running)**.
 
-*(Aquí iría la imagen del estado del servicio)*
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/02-InstalacionVsftpd/images/07-img.png)  
 
 ---
 
