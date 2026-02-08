@@ -3,6 +3,7 @@
 ## Instalamos los clientes por linea de comandos.
 
 Los clientes que vamos a usar son ftp, lftp y curl. Ejecutamos el siguiente comando:
+
 ![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/06-Prueba-Cliente-Comandos/images/01-img.png)
 
 
