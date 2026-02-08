@@ -1,6 +1,4 @@
-
 # Introducción FileZilla
-
 ---
 
 ## 1. Servidores FTP, FTPS y SFTP
@@ -12,6 +10,10 @@ Un **servidor FTP (File Transfer Protocol)** permite almacenar, organizar y tran
 - **Canal de datos** — transferencias: subidas, descargas y listados
 
 FTP **no cifra la información**, por lo que contraseñas y datos viajan en texto plano. Esto lo hace inseguro en redes públicas.
+
+En sistemas Linux, especialmente en **Ubuntu**, el servicio FTP más habitual es **vsftpd (Very Secure FTP Daemon)**.  
+Es un servidor FTP ligero, estable y muy seguro, ampliamente utilizado en entornos educativos y profesionales.  
+Ubuntu lo usa como servidor FTP por defecto cuando se necesita un servicio rápido y seguro sin complicaciones.
 
 ### 1.2 Servidor FTPS
 Un **servidor FTPS (FTP Secure)** añade cifrado **SSL/TLS** al protocolo FTP.
@@ -58,6 +60,8 @@ Funcionamiento básico:
 - Modo activo o pasivo  
 - Cifrado SSL/TLS si se usa FTPS  
 
+En las prácticas, el **cliente que más se utiliza es FileZilla Client**, que permite conectarse fácilmente a servidores FTP, FTPS y SFTP mediante una interfaz gráfica sencilla.
+
 ### 2.2 Relación con servidor FTP
 FileZilla Server **implementa** los protocolos FTP y FTPS:
 
@@ -65,6 +69,8 @@ FileZilla Server **implementa** los protocolos FTP y FTPS:
 - Con TLS y certificados → funciona como **servidor FTPS**  
 
 No es un protocolo distinto, sino el software que permite ofrecer el servicio.
+
+En entornos Linux como Ubuntu, cuando se necesita un servidor FTP real, se suele instalar **vsftpd**, mientras que **FileZilla Client** se usa desde el lado del cliente para conectarse a ese servidor.
 
 ---
 
