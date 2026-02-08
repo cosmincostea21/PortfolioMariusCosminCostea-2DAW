@@ -120,9 +120,6 @@ Si se quiere restringir más:
 sudo chmod 750 /srv/ftpgroup-cosmin
 ```
 
-![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/03-CreacionGrupos_Usuarios/images/08-img.png)
-
-
 ---
 
 ### 1.6 Límites de conexión
@@ -133,6 +130,9 @@ En `/etc/vsftpd.conf`:
 max_clients=5
 max_per_ip=2
 ```
+
+![img](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/03-CreacionGrupos_Usuarios/images/08-img.png)
+
 
 Explicación:
 
