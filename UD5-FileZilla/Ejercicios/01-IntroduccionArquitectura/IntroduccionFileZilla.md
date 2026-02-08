@@ -70,6 +70,8 @@ No es un protocolo distinto, sino el software que permite ofrecer el servicio.
 
 ## 3. Esquema del protocolo FTP
 
+!['img'](https://github.com/cosmincostea21/PortfolioMariusCosminCostea-2DAW/blob/main/UD5-FileZilla/Ejercicios/01-IntroduccionArquitectura/images/01-img.png)
+
 En FTP, el **modo activo** y el **modo pasivo** definen cómo se establece el canal de datos. Ambos usan el puerto 21 para el canal de control.
 
 ### Modo activo (PORT)
@@ -95,7 +97,3 @@ En FTP, el **modo activo** y el **modo pasivo** definen cómo se establece el ca
 
 - Control: cliente → servidor (21)  
 - Datos: cliente:puerto_aleatorio → servidor:puerto_pasivo  
-
----
-
-Si quieres, puedo ayudarte a convertir estos apuntes en un PDF, añadir diagramas o generar un esquema visual.
