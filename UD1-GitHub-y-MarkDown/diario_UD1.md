@@ -1,31 +1,34 @@
-# 1. 📘 ¿Qué he aprendido?
+# 1. ¿Qué he aprendido?
 
-A lo largo de la primera unidad hemos aprendido a navegar por las diferentes opciones de **GitHub**.  
-Por otro lado, a través de la interfaz somos capaces de realizar acciones como **commit**, **merge** o **pull**, entre otras.  
+Durante la primera unidad he adquirido soltura al navegar por las distintas opciones de **GitHub**.  
+A través de su interfaz he aprendido a realizar acciones como **commit**, **merge** o **pull**, entre otras.  
 
-Cabe destacar que también hemos aprendido **Markdown**, un lenguaje de marcado ligero que sirve para dar formato al texto de una forma sencilla y rápida. ✍️
+Además, he incorporado el uso de **Markdown**, un lenguaje de marcado ligero que permite dar formato al texto de manera clara y eficiente.
 
+---
 
-# 2. ❓ ¿Qué no entiendo?
+# 2. ¿Qué no entiendo?
 
-Sinceramente, **GitHub** es una aplicación web muy desarrollada y compleja, por lo que existen muchas formas de hacer la misma acción o incluso acciones que no hemos utilizado.  
-Aun así, quedo satisfecho con los conocimientos iniciales adquiridos en clase.  
+GitHub es una plataforma muy completa y con múltiples formas de realizar una misma acción, por lo que aún quedan funciones que no he explorado.  
+Aun así, considero que los conocimientos iniciales adquiridos en clase son una base sólida.  
 
-Con respecto a **Markdown**, es un lenguaje bastante sencillo, aunque requiere práctica para asentar los conocimientos y poder usarlo de forma automática sin recurrir al *chuletario* tan a menudo. 📄
+En cuanto a **Markdown**, es un lenguaje sencillo, aunque requiere práctica para utilizarlo con fluidez sin depender tanto de una guía de referencia.
 
+---
 
-# 3. 🌟 ¿Qué es lo que más me ha gustado?
+# 3. ¿Qué es lo que más me ha gustado?
 
-Lo que más me ha gustado es la **forma de aprender**.  
-El aprendizaje con pequeñas bromas, siempre manteniendo la seriedad de un aula, creo que ayuda mucho a perder el miedo a cometer errores, que son muy necesarios para aprender. 😄
+Destaco especialmente la **metodología de aprendizaje**.  
+El equilibrio entre un ambiente distendido y el rigor propio del aula facilita la participación y reduce el miedo a equivocarse, algo fundamental en el proceso de aprendizaje.
 
+---
 
-# 4. 👎 ¿Qué es lo que menos me ha gustado?
+# 4. ¿Qué es lo que menos me ha gustado?
 
-No hay nada destacable, todo ha sido muy correcto. ✔️
+No hay aspectos negativos destacables; la experiencia ha sido adecuada y bien estructurada.
 
+---
 
-# 5. 🚀 ¿Qué más me gustaría saber?
+# 5. ¿Qué más me gustaría saber?
 
-Me gustaría aprender más opciones de **GitHub**, aunque seguramente lo haremos en proyectos futuros.  
-
+Me gustaría profundizar en más funcionalidades de **GitHub**, algo que probablemente abordaremos en futuros proyectos.
