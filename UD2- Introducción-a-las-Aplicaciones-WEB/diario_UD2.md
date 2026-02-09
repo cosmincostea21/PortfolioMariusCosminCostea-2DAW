@@ -1,45 +1,43 @@
-
-# 1. 📘 ¿Qué he aprendido?
+# 1. ¿Qué he aprendido?
 
 He aprendido a instalar y configurar **Docker en Ubuntu** dentro de una máquina virtual en **VirtualBox**.  
-He comprendido la importancia de mantener el sistema actualizado con `update` y `upgrade`, así como la necesidad de añadir repositorios oficiales para instalar software de forma segura. 
+También he comprendido la importancia de mantener el sistema actualizado mediante `update` y `upgrade`, así como la necesidad de añadir repositorios oficiales para garantizar instalaciones seguras.
 
-Por otro lado también hemos realizado una práctica sobre servidores, alojamiento web y como podemos instalar Apache en windows 11.
+Además, hemos trabajado con servidores y alojamiento web, incluyendo la instalación de **Apache en Windows 11**.
 
-También he aprendido a:  
-- Instalar Docker y resolver problemas de permisos añadiendo el usuario al grupo `docker`.  
-- Ejecutar contenedores de prueba como **Nginx** y **Tomcat**, entendiendo la diferencia entre un servidor web y un servidor de aplicaciones.  
-- Usar comandos básicos de Docker como `docker run`, `docker ps` y `docker search`.  
-- Documentar todo el proceso en **Markdown**, incluyendo imágenes y explicaciones claras. ✍️  
-
----
-
-# 2. ❓ ¿Qué no entiendo?
-
-Aunque he seguido los pasos correctamente, todavía me cuesta entender en profundidad cómo funciona la **infraestructura interna de Docker**, especialmente la relación entre imágenes, contenedores y volúmenes.  
-Además, me gustaría profundizar en cómo se gestionan los **puertos y redes** dentro de Docker, ya que en esta práctica solo hemos hecho un mapeo básico (`-p 8080:80`).  
+Entre los conocimientos adquiridos destacan:  
+- Instalación de Docker y resolución de problemas de permisos mediante la incorporación del usuario al grupo `docker`.  
+- Ejecución de contenedores de prueba como **Nginx** y **Tomcat**, entendiendo la diferencia entre un servidor web y uno de aplicaciones.  
+- Uso de comandos básicos como `docker run`, `docker ps` y `docker search`.  
+- Documentación del proceso utilizando **Markdown**, incorporando imágenes y explicaciones detalladas.
 
 ---
 
-# 3. 🌟 ¿Qué es lo que más me ha gustado?
+# 2. ¿Qué no entiendo?
 
-Lo que más me ha gustado ha sido ver cómo, con unos pocos comandos, se pueden levantar servicios completos como **Nginx** o **Tomcat** y acceder a ellos desde el navegador.  
-También me ha parecido muy útil el uso de **Markdown con imágenes**, ya que permite crear documentación clara y profesional que facilita el aprendizaje y la consulta posterior. 😄  
-
----
-
-# 4. 👎 ¿Qué es lo que menos me ha gustado?
-
-Lo más complicado ha sido resolver el error de permisos al ejecutar Docker por primera vez. Aunque la solución fue sencilla (`usermod -aG docker $USER`), puede resultar frustrante para alguien que empieza.  
-Por lo demás, la práctica ha sido muy completa y bien estructurada. ✔️  
+Aunque he seguido los pasos correctamente, todavía me resulta complejo comprender en profundidad la **arquitectura interna de Docker**, especialmente la relación entre imágenes, contenedores y volúmenes.  
+También me gustaría profundizar en la gestión de **puertos y redes**, ya que en esta práctica solo se ha trabajado con un mapeo básico (`-p 8080:80`).
 
 ---
 
-# 5. 🚀 ¿Qué más me gustaría saber?
+# 3. ¿Qué es lo que más me ha gustado?
 
-Me gustaría aprender a:  
-- Crear mis **propias imágenes de Docker** con un `Dockerfile`.  
-- Gestionar varios contenedores a la vez con **Docker Compose**.  
-- Entender cómo se despliegan aplicaciones más complejas en entornos de producción.  
-- Profundizar en la **seguridad y mantenimiento** de los contenedores.  
+Me ha resultado especialmente interesante comprobar cómo es posible desplegar servicios completos como **Nginx** o **Tomcat** con apenas unos comandos y acceder a ellos desde el navegador.  
+Asimismo, la documentación en **Markdown** me ha parecido muy útil para estructurar el trabajo de forma clara y profesional.
 
+---
+
+# 4. ¿Qué es lo que menos me ha gustado?
+
+El aspecto más complicado ha sido resolver el error de permisos al ejecutar Docker por primera vez. Aunque la solución era sencilla (`usermod -aG docker $USER`), puede resultar frustrante para quienes se inician.  
+Por lo demás, la práctica ha sido completa y bien organizada.
+
+---
+
+# 5. ¿Qué más me gustaría saber?
+
+Me gustaría profundizar en:  
+- La creación de **imágenes personalizadas** mediante `Dockerfile`.  
+- La gestión de múltiples contenedores con **Docker Compose**.  
+- El despliegue de aplicaciones complejas en entornos de producción.  
+- Aspectos de **seguridad y mantenimiento** en contenedores.
